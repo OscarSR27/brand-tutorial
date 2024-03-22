@@ -22,7 +22,9 @@ BLACK = (0, 0, 0)
 STATE_BETWEEN_TRIALS = 0
 STATE_START_TRIAL = 1
 STATE_MOVEMENT = 2
-
+# Note: This section attempts to configure the display settings by reading the .DISPLAY file. 
+# If graphical drivers are not installed or you encounter issues related to the display configuration,
+# you can comment out this section to allow the experiment to run.
 try:
     with open(os.path.join(os.path.expanduser('~'), '.DISPLAY'), 'r') as f:
         os.environ["DISPLAY"] = f.read().splitlines()[0]
@@ -107,9 +109,31 @@ class PygletDisplay(BRANDNode):
         self.first_read = True
 
     # Getting data from Redis
+    
+    #In summary, this snippet of code is reading the most recent message from the 'mouse_ac' stream in Redis, accessing the data 
+    #under the key 'samples', and then unpacking that binary data into three short integers. These likely represent information 
+    #about the mouse, such as its position or movement.
+    
     def get_mouse_position(self):
+        
+        # Reading data from Redis
+        # 'mouse_ac' is the name of the Redis stream to read data from
+        # '$' indicates to start reading from the latest message in the stream
+        # count=1 means only the most recent message will be read
+        # block=0 means the call will not block if there are no new messages
         reply = self.r.xread(streams={'mouse_ac': '$'}, count=1, block=0)
+        
+        # Accessing the response from Redis
+        # reply[0] accesses the first tuple in the response list, corresponding to the 'mouse_ac' stream
+        # reply[0][1] accesses the list of messages from that stream
+        # reply[0][1][0] accesses the first message in that list
+        # reply[0][1][0][1] accesses the content of the message, which is a dictionary of fields and values
         cursorFrame = reply[0][1][0][1]
+        
+        # Unpacking the message data
+        # '3h' is the format for unpacking the data, indicating three short integers
+        # cursorFrame[b'samples'] accesses the binary data associated with the 'samples' key in the message
+        # The binary data is unpacked into a tuple of three short integers
         mouse_data = unpack('3h', cursorFrame[b'samples'])
         return mouse_data
 
@@ -149,6 +173,22 @@ class PygletDisplay(BRANDNode):
         return target_data
 
     # Pyglet event handlers
+    
+    # self.r: This is the Redis connection object. It's typically initialized elsewhere in the code (likely in the class's 
+    #__init__ constructor).
+
+    # xadd: This is a method to add a message to a stream in Redis.
+
+    # b'keypress': This is the name of the stream in Redis. The 'b' prefix indicates that it's a byte string, which is necessary 
+    #for keys and fields in Redis when using Python 3.
+
+    # The following dictionary contains the fields and values to be added to the stream:
+    # b'symbol': This is the byte string key for the field storing the symbol of the pressed key.
+    # self.label.text: This is the value corresponding to the pressed key.
+    # self.time_key: This is a byte string key referring to a timestamp field.
+    # np.uint64(time.monotonic_ns()).tobytes(): This is the timestamp value converted to bytes.
+
+    
     def on_key_press(self, symbol, modifiers):
         if symbol == pyglet.window.key.ESCAPE:  # [ESC]
             self.window.close()

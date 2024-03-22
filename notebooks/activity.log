@@ -1,0 +1,148 @@
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0 milliseconds
+[open-ephys][ddebug]     Loaded layout in 0.001 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 0.894 milliseconds
+[open-ephys][debug] LfpDisplayCanvas loading custom parameters.
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0.001 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 2
+[open-ephys][ddebug]     Finished creating buffers in 0.007 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 2
+[open-ephys][ddebug]     Finished creating buffers in 0.007 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 2
+[open-ephys][ddebug]     Finished creating buffers in 0.009 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 6.799 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 8.305 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 6.805 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 3.262 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.074 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 50
+[open-ephys][ddebug]     Finished creating buffers in 0.121 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.059 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.086 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.069 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.237 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.353 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.146 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.15 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.125 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.187 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.233 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.239 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.184 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.27 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.184 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.171 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 1.208 milliseconds
+[open-ephys][ddebug]     Loaded layout in 0.004 milliseconds
+[open-ephys][debug] LfpDisplayCanvas loading custom parameters.
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.436 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.44 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.276 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.106 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.118 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.155 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.138 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.312 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.133 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.131 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 1
+[open-ephys][ddebug]     Finished creating buffers in 0.255 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.133 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.155 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.139 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.09 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.089 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.222 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.074 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.107 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.109 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.136 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.168 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.164 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.099 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.141 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.147 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.147 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.105 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.158 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.183 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 190
+[open-ephys][ddebug]     Finished creating buffers in 0.252 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 137
+[open-ephys][ddebug]     Finished creating buffers in 0.157 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0 milliseconds
+[open-ephys][ddebug]     Loaded layout in 0.001 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 1.138 milliseconds
+[open-ephys][debug] LfpDisplayCanvas loading custom parameters.
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0.001 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 0
+[open-ephys][ddebug]     Finished creating buffers in 0.001 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 137
+[open-ephys][ddebug]     Finished creating buffers in 0.066 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 137
+[open-ephys][ddebug]     Finished creating buffers in 0.059 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 137
+[open-ephys][ddebug]     Finished creating buffers in 0.059 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 1.082 milliseconds

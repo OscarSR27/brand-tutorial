@@ -1,0 +1,18 @@
+graph_name: bci_control_sim
+nodes:
+- module: ../brand-modules/my-modules
+  name: lsl_inlet_NDS
+  nickname: lsl_inlet_NDS
+  parameters:
+    fullscreen: true
+    log: INFO
+    sync_key: sync
+    syncbox: false
+    time_key: ts
+    window_height: 1080
+    window_width: 1920
+  run_priority: 99
+parameters:
+  total_channels: 192
+participant_id: sim
+session_description: null

@@ -1,0 +1,19 @@
+BehaviorVelocity:
+  timestamp: float64
+  value: float64
+Decoder:
+  timestamp: float64
+  value: float64
+LFP:
+  timestamp: float64
+  channel_data: float64
+Position:
+  timestamp: float64
+  x: float64
+  y: float64
+Raw:
+  timestamp: float64
+  channel_data: float64
+SpikeEvents:
+  timestamp: float64
+  spike_times: float64
